@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "EasyOrder",
+    "slug": "easyorder-android",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "android"
+    ],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.easyorder.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#f6f4ee",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9fb4c7b3-d4b5-453f-b180-409802b4e9de"
+      }
+    },
+    "owner": "jessek2"
+  }
+}
